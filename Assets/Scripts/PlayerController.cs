@@ -11,17 +11,27 @@ public class PlayerController : MonoBehaviour
     }
     public float horizontalInput;
     public float xRange = 10;
-    public float speed;
+    public float speed = 10.0f;
+
+
+    public GameObject projectilePrefab;
 
     // Update is called once per frame
     void Update()
     {
-        //keep the player in bounds
-        if (transform.position.x < xRange)
-        { 
-            transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            // Launch a projectile from the player
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
         }
-        if(transform.position.x >xRange)
+
+        //keep the player in bounds
+        if (transform.position.x < -xRange)
+        { 
+            transform.position = new Vector3(-xRange, transform.position.y, transform.position.z);
+        }
+        if(transform.position.x > xRange)
         {
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }
