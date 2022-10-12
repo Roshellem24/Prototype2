@@ -1,34 +1,25 @@
 ﻿<Properties StartupConfiguration="{991D930B-35E1-0AA3-EC85-40639ADFE325}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MoveForward.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DestroyOutOfBounds.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerController.cs" Line="34" Column="35" />
-      <File FileName="Assets/Scripts/MoveForward.cs" Line="16" Column="9" />
+      <File FileName="Assets/Scripts/MoveForward.cs" Line="18" Column="71" />
+      <File FileName="Assets/Scripts/DestroyOutOfBounds.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Prototype2" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="MoveForward.cs" selected="True" />
-              </Node>
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Unity" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="abe553d2-d3d7-406d-9b67-8c8adee29f5b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ed33390c-ac54-4ca2-9c24-6b0f31f1e7b5" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
