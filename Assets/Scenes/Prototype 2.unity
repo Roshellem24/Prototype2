@@ -181,6 +181,53 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 50.000004, y: -60.000004, z: 0}
+--- !u!1 &288254987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 288254989}
+  - component: {fileID: 288254988}
+  m_Layer: 0
+  m_Name: SpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &288254988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288254987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4af193138281494ebf246c94bf92a3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalPrefabs:
+  - {fileID: 7672781555792190146, guid: f697a540ba54c434a8d5f429449c2acf, type: 3}
+  - {fileID: 8837915496456172659, guid: 08b55c4daeb3c495d927297d8beccf4f, type: 3}
+  - {fileID: 8532274980026123960, guid: 963995c1c92764be4981417e0f0bb937, type: 3}
+--- !u!4 &288254989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288254987}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.908089, y: -0.8678775, z: 16.396816}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &425805626
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,7 +433,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 45
-  orthographic: 0
+  orthographic: 1
   orthographic size: 10
   m_Depth: -1
   m_CullingMask:
@@ -528,7 +575,7 @@ MonoBehaviour:
   horizontalInput: 0
   xRange: 10
   speed: 40
-  projectilePrefab: {fileID: 4439778362079499707, guid: 9c6c14e9356fd4a75aca12558a5af3b5,
+  projectilePrefab: {fileID: 8146721119534312052, guid: d689f04502f34442e9d4e067ed62ae40,
     type: 3}
 --- !u!1 &1590138454
 GameObject:
@@ -760,17 +807,17 @@ PrefabInstance:
     - target: {fileID: 8532274980026472526, guid: 963995c1c92764be4981417e0f0bb937,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.8
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 8532274980026472526, guid: 963995c1c92764be4981417e0f0bb937,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.07
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8532274980026472526, guid: 963995c1c92764be4981417e0f0bb937,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.45
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8532274980026472526, guid: 963995c1c92764be4981417e0f0bb937,
         type: 3}
