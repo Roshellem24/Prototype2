@@ -735,6 +735,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animal_Chicken_White
       objectReference: {fileID: 0}
+    - target: {fileID: 7672781555792504012, guid: f697a540ba54c434a8d5f429449c2acf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 222
+      objectReference: {fileID: 0}
+    - target: {fileID: 7672781555792504012, guid: f697a540ba54c434a8d5f429449c2acf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 55
+      objectReference: {fileID: 0}
     - target: {fileID: 7672781555792546964, guid: f697a540ba54c434a8d5f429449c2acf,
         type: 3}
       propertyPath: m_LocalPosition.x
